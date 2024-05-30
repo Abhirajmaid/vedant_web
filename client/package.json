@@ -1,5 +1,5 @@
 {
-  "name": "gsap",
+  "name": "vedant_construction",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "generate": "plop",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
@@ -25,6 +25,7 @@
     "embla-carousel-react": "^8.0.2",
     "gsap": "^3.12.5",
     "highlight.js": "^11.9.0",
+    "husky": "^9.0.11",
     "imagesloaded": "^5.0.0",
     "next": "14.0.3",
     "notion-block-renderer": "^2.3.13",
