@@ -1,0 +1,20 @@
+{
+  "header": [
+    {
+      "label": "about us",
+      "href": "/about-us"
+    },
+    {
+      "label": "blog",
+      "href": "/blog"
+    },
+    {
+      "label": "services",
+      "href": "/services"
+    },
+    {
+      "label": "our projects",
+      "href": "/projects"
+    }
+  ]
+}
