@@ -10,3 +10,4 @@ export * from "./services-grid";
 export * from "./page-header";
 export * from "./sub-services";
 export * from "./projects";
+export * from "./terms-page";

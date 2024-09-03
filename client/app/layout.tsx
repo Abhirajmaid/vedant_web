@@ -2,6 +2,7 @@ import { Footer, Header } from "@/components";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
 
 const myFont = localFont({
   src: "../public/HousttelySignature-GOonZ.ttf",
@@ -21,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
       <body data-barba="wrapper">
         <Header />
         {children}

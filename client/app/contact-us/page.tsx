@@ -91,11 +91,13 @@ const ContactPage = () => {
 
         <div className="mb-8 grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="rounded-xl bg-gray-200 p-8 text-center">
-            <p className="text-lg font-bold">+91 7676568586</p>
+            <p className="text-lg font-bold">+91 9881137760</p>
             <p>Our Mobile Number</p>
           </div>
           <div className="rounded-xl bg-gray-200 p-8 text-center">
-            <p className="text-lg font-bold">mail@influenca.id</p>
+            <p className="text-[20px] font-bold">
+              contact@vedantconstruction.co.in
+            </p>
             <p>Our Email Address</p>
           </div>
           <div className="rounded-xl bg-gray-200 p-8 text-center">
