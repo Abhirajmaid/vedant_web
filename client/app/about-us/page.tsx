@@ -44,8 +44,8 @@ const AboutUs = () => {
                   className="h-full w-full object-cover"
                 />
               </div>
-              <div className="col-span-2 row-span-2 grid grid-rows-2  gap-4 md:col-span-1">
-                <div className="flex flex-col justify-between rounded-3xl bg-neutral-200 p-4">
+              <div className="col-span-2 row-span-2 grid grid-rows-2 gap-4 md:col-span-1">
+                <div className="flex h-[200px] flex-col justify-between rounded-3xl bg-neutral-200 p-4">
                   <Heading as="h3" className="text-title">
                     100%
                   </Heading>

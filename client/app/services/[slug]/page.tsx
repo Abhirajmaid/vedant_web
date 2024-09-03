@@ -8,6 +8,7 @@ interface SERVICES {
   category: string;
   question: string;
   answer: string;
+  pricing_range?: string;
 }
 
 const page = () => {

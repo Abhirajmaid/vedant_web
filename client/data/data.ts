@@ -20,120 +20,482 @@ export const servicesData = [
     {
         id: "waterproofing",
         title: "Waterproofing",
-        description: "Waterproofing services protect buildings from water damage by applying specialized coatings, membranes, and sealants to vulnerable areas like roofs and basements.",
-        icon: "mdi:water-off-outline",
+        description: "Protect your property from water damage with our advanced waterproofing solutions. We offer a variety of waterproofing services tailored to different needs, including terrace waterproofing, basement waterproofing bathroom waterproofing, and more.",
+        icon: "mdi:water-off",
         url: '/waterproofing',
         sub_services: [
             {
-                category: "General",
-                question: "Is there a free trial available?",
-                answer: "Yes, we offer a 14-day free trial with all features included.",
+                category: "Waterproofing",
+                question: "Waterproofing solutions",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
             {
-                category: "Pricing",
-                question: "Can I change my plan later?",
-                answer: "Yes, you can upgrade or downgrade your plan at any time.",
+                category: "Waterproofing",
+                question: "Terrace waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
             {
-                category: "General",
-                question: "What is your cancellation policy?",
-                answer:
-                    "You can cancel your subscription at any time, and you'll still have access until the end of your billing period.",
+                category: "Waterproofing",
+                question: "Basement waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
             {
-                category: "Dashboard",
-                question: "Can other info be added to an invoice?",
-                answer: "Yes, you can add custom details to your invoices.",
+                category: "Waterproofing",
+                question: "Roof waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
             {
-                category: "API",
-                question: "How does billing work?",
-                answer: "Billing is processed automatically at the end of each month.",
+                category: "Waterproofing",
+                question: "Wall waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Liquid membrane application",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Crack sealing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Damp proofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Leakage repair",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Cementitious waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Waterproofing contractor",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Bituminous waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Polyurethane coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Epoxy grout waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Protective coatings",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Joint sealants",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Structural waterproofing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Moisture barrier",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Waterproofing membrane installation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "Waterproofing",
+                question: "Anti-leak treatment",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
         ]
     },
     {
-        id: "waterproofing1",
-        title: "Waterproofing",
-        description: "Waterproofing services protect buildings from water damage by applying specialized coatings, membranes, and sealants to vulnerable areas like roofs and basements.",
-        icon: "mdi:water-off-outline",
-        url: '/waterproofing1',
+        id: "coating-services",
+        title: "Coating Services",
+        description: "Our coating services include protective and decorative coatings for various surfaces, ensuring durability, aesthetics, and resistance to environmental factors.",
+        icon: "mdi:format-paint",
+        url: '/coating-services',
         sub_services: [
             {
-                category: "General",
-                question: "Is there a free trial available?",
-                answer: "Yes, we offer a 14-day free trial with all features included.",
+                category: "coating",
+                question: "Protective Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Industrial Coatings",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Waterproof Coatings",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Anti-Corrosion Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Epoxy Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Polyurethane Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Surface Preparation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Concrete Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Fireproof Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Abrasion-Resistant Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Non-Slip Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Powder Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "UV-Resistant Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
+            },
+            {
+                category: "coating",
+                question: "Thermal Insulation Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k"
             },
         ]
     },
     {
-        id: "waterproofing2",
-        title: "Waterproofing",
-        description: "Waterproofing services protect buildings from water damage by applying specialized coatings, membranes, and sealants to vulnerable areas like roofs and basements.",
-        icon: "mdi:water-off-outline",
-        url: '/waterproofing',
+        id: "flooring-services",
+        title: "Flooring Services",
+        description: "Our flooring services cover installation and restoration of different flooring types, including epoxy flooring, vinyl flooring and more, ensuring a smooth and durable finish.",
+        icon: "fluent-mdl2:tiles-2",
+        url: '/flooring-services',
         sub_services: [
             {
-                category: "General",
-                question: "Is there a free trial available?",
-                answer: "Yes, we offer a 14-day free trial with all features included.",
+                category: "Flooring",
+                question: "Floor Installation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "Pricing",
-                question: "Can I change my plan later?",
-                answer: "Yes, you can upgrade or downgrade your plan at any time.",
+                category: "Flooring",
+                question: "Tile Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "General",
-                question: "What is your cancellation policy?",
-                answer:
-                    "You can cancel your subscription at any time, and you'll still have access until the end of your billing period.",
+                category: "Flooring",
+                question: "Vinyl Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "Dashboard",
-                question: "Can other info be added to an invoice?",
-                answer: "Yes, you can add custom details to your invoices.",
+                category: "Flooring",
+                question: "Hardwood Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "API",
-                question: "How does billing work?",
-                answer: "Billing is processed automatically at the end of each month.",
+                category: "Flooring",
+                question: "Laminate Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Carpet Installation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Epoxy Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Concrete Polishing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Floor Refinishing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Stone Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Marble Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Floor Levelling",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Underfloor Heating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Slip-Resistant Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Commercial Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Residential Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Luxury Vinyl Plank (LVP)",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Floor Repair",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Parquet Flooring",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "Flooring",
+                question: "Floor Resurfacing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
         ]
     },
     {
-        id: "waterproofing3",
-        title: "Waterproofing",
-        description: "Waterproofing services protect buildings from water damage by applying specialized coatings, membranes, and sealants to vulnerable areas like roofs and basements.",
-        icon: "mdi:water-off-outline",
-        url: '/waterproofing',
+        id: "painting",
+        title: "Painting",
+        description: "We offer both interior and exterior painting services, using high-quality paints and techniques to ensure a flawless finish that lasts.",
+        icon: "mdi:paint",
+        url: '/painting',
         sub_services: [
             {
-                category: "General",
-                question: "Is there a free trial available?",
-                answer: "Yes, we offer a 14-day free trial with all features included.",
+                category: "paint",
+                question: "Interior Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "Pricing",
-                question: "Can I change my plan later?",
-                answer: "Yes, you can upgrade or downgrade your plan at any time.",
+                category: "paint",
+                question: "Exterior Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "General",
-                question: "What is your cancellation policy?",
-                answer:
-                    "You can cancel your subscription at any time, and you'll still have access until the end of your billing period.",
+                category: "paint",
+                question: "Commercial Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "Dashboard",
-                question: "Can other info be added to an invoice?",
-                answer: "Yes, you can add custom details to your invoices.",
+                category: "paint",
+                question: "Residential Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
             {
-                category: "API",
-                question: "How does billing work?",
-                answer: "Billing is processed automatically at the end of each month.",
+                category: "paint",
+                question: "Wall Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
             },
+            {
+                category: "paint",
+                question: "Ceiling Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Trim and Moulding Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Decorative Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Colour Consultation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Spray Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Brush and Roller Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Faux Finishes",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Stain and Varnish",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Wallpaper Removal",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Surface Preparation",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Touch-Up Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Priming and Sealing",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Cabinet Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Epoxy Coating",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+            {
+                category: "paint",
+                question: "Power Washing and Painting",
+                answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
+                pricing_range: "₹50k - ₹100k",
+            },
+
         ]
     },
 ]

@@ -8,6 +8,7 @@ interface SERVICES {
   category: string;
   question: string;
   answer: string;
+  pricing_range?: string;
 }
 
 interface SubServiceSectionProps {
@@ -59,6 +60,7 @@ export const SubServiceSec: React.FC<SubServiceSectionProps> = ({
               key={index}
               question={item.question}
               answer={item.answer}
+              pricing_range={item.pricing_range}
             />
           ))}
         </div>

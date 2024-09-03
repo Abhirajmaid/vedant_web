@@ -4,11 +4,13 @@ import React, { useState } from "react";
 interface SubServiceItemProps {
   question: string;
   answer: string;
+  pricing_range?: string;
 }
 
 export const SubServiceItem: React.FC<SubServiceItemProps> = ({
   question,
   answer,
+  pricing_range,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,9 +28,24 @@ export const SubServiceItem: React.FC<SubServiceItemProps> = ({
         <span>{isOpen ? "-" : "+"}</span>
       </div>
       {isOpen && (
-        <p className="mt-2 text-gray-600">
-          {answer} <br /> <span></span>
-        </p>
+        <div className="flex flex-col gap-4">
+          <p className="mt-2 text-[18px] text-gray-600">{answer}</p>
+          <span className="w-[15%] rounded-2xl bg-primary-300 p-2 px-3 text-center font-semibold text-white">
+            {pricing_range}
+          </span>
+          <div className="flex gap-7">
+            <img
+              src="/images/stock1.jpg"
+              alt="vedant-construction"
+              className="h-[230px] w-[30%] rounded-3xl"
+            />
+            <img
+              src="/images/stock2.webp"
+              alt="vedant-construction"
+              className="h-[230px] w-[30%] rounded-3xl"
+            />
+          </div>
+        </div>
       )}
     </div>
   );

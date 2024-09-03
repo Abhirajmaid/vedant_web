@@ -14,10 +14,13 @@ export const Features = () => {
               What We Offer
             </Heading>
           </div>
-          <div className="grid gap-9 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {servicesData.map((item, id) => {
               return (
-                <div className="flex flex-col items-start gap-6" key={id}>
+                <div
+                  className="flex w-full flex-col items-start gap-6 rounded-3xl"
+                  key={id}
+                >
                   <div className="rounded-xl bg-primary-300 p-4">
                     <Icon icon={item.icon} width="2em" height="2em" />
                   </div>
@@ -25,10 +28,12 @@ export const Features = () => {
                     <Heading as="h3" className="mb-4 text-title leading-none">
                       {item.title}
                     </Heading>
-                    <p className="text-neutral-800">{item.description}</p>
+                    <p className="w-[90%] text-justify text-neutral-800">
+                      {item.description}
+                    </p>
                   </div>
                   <Link href={item.url}>
-                    <button className="text-primary-950">Read More</button>
+                    <button className="text-primary-600">Read More</button>
                   </Link>
                 </div>
               );
