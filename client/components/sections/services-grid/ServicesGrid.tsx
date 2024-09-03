@@ -1,4 +1,3 @@
-import { Heading } from "@/components/elements";
 import { Container, Section } from "@/components/layouts";
 import { servicesData } from "@/data/data";
 import Link from "next/link";
@@ -8,8 +7,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 export const ServicesGrid = () => {
   return (
-    <Section className="rounded-b-xl bg-white ">
-      <Container>
+    <Section className="rounded-b-xl bg-white">
+      <Container className="mt-[50px]">
         <PageHeader
           title="Our Services"
           subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eaque

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.0",
     "@iconify/react": "^5.0.2",
     "@notion-render/bookmark-plugin": "^0.0.2",

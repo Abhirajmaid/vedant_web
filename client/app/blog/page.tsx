@@ -1,12 +1,19 @@
 import { Container, Heading, PageHeader, Section } from "@/components";
+import { Construction } from "@/components/elements/icons/Construction";
 import { blogs } from "@/data/data";
 import Image from "next/image";
 import Link from "next/link";
 
 const BlogPage = () => {
   return (
-    <Section className="bg-secondary-950">
-      <Container>
+    <Section className="relative bg-secondary-950">
+      <div className="absolute -bottom-[200px] -left-[1100px] opacity-20">
+        <Construction />
+      </div>
+      <div className="absolute -bottom-[200px] -right-[1050px] opacity-20">
+        <Construction />
+      </div>
+      <Container className=" mt-[50px]">
         <PageHeader
           title="Our Latest Posts"
           subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eaque

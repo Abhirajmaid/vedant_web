@@ -8,11 +8,15 @@ import {
 } from "@/components";
 import AboutUsCarousel from "./AboutUsCarousel";
 import Link from "next/link";
+import { FooterBg } from "@/components/elements/icons/FooterBg";
 
 export const AboutUs = () => {
   return (
-    <Section className="bg-secondary-950">
-      <Container>
+    <Section className="relative bg-secondary-950">
+      <div className="absolute top-0 h-full">
+        <FooterBg />
+      </div>
+      <Container className="relative">
         <SubTitle subTitle="About us" />
         <div className="grid gap-12 md:gap-36 xl:grid-cols-2">
           <div className="flex flex-col justify-center gap-6">

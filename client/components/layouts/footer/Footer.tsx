@@ -16,8 +16,8 @@ export const Footer = () => {
           <FooterBg />
         </div>
         <div className="container relative">
-          <div className="grid gap-8 sm:grid-cols-6 xl:grid-cols-12">
-            <div className="col-span-3">
+          <div className="grid gap-8 sm:grid-cols-6 xl:grid-cols-11">
+            <div className="col-span-2">
               <Logo />
             </div>
             <div className="col-span-9 grid gap-8 sm:grid-cols-9">

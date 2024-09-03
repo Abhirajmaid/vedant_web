@@ -6,7 +6,7 @@ type SectionTypes = {
 };
 export const Section = ({ children, className }: SectionTypes) => {
   return (
-    <section className={cx("py-24 sm:py-48 overflow-hidden", className)}>
+    <section className={cx("overflow-hidden py-16 sm:py-24", className)}>
       {children}
     </section>
   );

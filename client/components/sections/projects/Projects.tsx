@@ -7,7 +7,7 @@ import { projectData } from "@/data/data";
 export const Projects: React.FC = () => {
   return (
     <Section className="bg-white">
-      <Container>
+      <Container className="mt-[50px]">
         <PageHeader
           title="Our Projects"
           subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eaque

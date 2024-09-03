@@ -15,6 +15,10 @@
     {
       "label": "our projects",
       "href": "/projects"
+    },
+    {
+      "label": "contact",
+      "href": "/contact-us"
     }
   ]
 }

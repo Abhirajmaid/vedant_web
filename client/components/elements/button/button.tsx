@@ -8,10 +8,11 @@ export interface ButtonProps extends ButtonStylesProps {
 }
 
 export const Button = (props: ButtonProps) => {
-  const { className, children, variant, size } = props;
+  const { className, children, variant, size, onClick } = props;
   return (
     <button
       {...props}
+      onClick={onClick}
       className={cx(buttonStyles({ variant, size }), className)}
     >
       {children}

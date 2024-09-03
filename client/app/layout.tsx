@@ -2,6 +2,7 @@ import { Footer, Header } from "@/components";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+
 const myFont = localFont({
   src: "../public/HousttelySignature-GOonZ.ttf",
   variable: "--font-house",

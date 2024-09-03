@@ -1,4 +1,5 @@
 import { Heading } from "@/components/elements";
+import { FooterBg } from "@/components/elements/icons/FooterBg";
 import { Container, Section } from "@/components/layouts";
 import { blogs } from "@/data/data";
 import Image from "next/image";
@@ -6,8 +7,14 @@ import Link from "next/link";
 
 export const Blog = () => {
   return (
-    <Section className="bg-primary-50 ">
-      <Container>
+    <Section className="relative rounded-3xl bg-primary-50">
+      <div className="absolute top-0 h-full scale-[1.3] transform">
+        <FooterBg />
+      </div>
+      <div className="absolute right-0 top-0 h-full scale-[-1.3] transform">
+        <FooterBg />
+      </div>
+      <Container className="relative">
         <div>
           <div className="flex w-full items-center justify-between">
             <Heading as="h2" className="text-section leading-none text-white">

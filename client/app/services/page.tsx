@@ -4,10 +4,12 @@ const ServicesPage = () => {
   return (
     <main>
       <ServicesGrid />
-      <div className="mb-4">
+      <div className="p-2 sm:p-4">
         <NewLetter />
       </div>
-      <Testimonials />
+      <div className="p-2 sm:p-4">
+        <Testimonials />
+      </div>
     </main>
   );
 };

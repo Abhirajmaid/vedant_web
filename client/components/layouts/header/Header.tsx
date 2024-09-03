@@ -28,18 +28,18 @@ export const Header = () => {
   return (
     <header
       className={cx(
-        "fixed z-50 w-full border-primary-300 bg-secondary-950 py-2 duration-300 sm:border-b-2",
+        "fixed z-50 w-full border-primary-300 bg-white py-2 duration-300 sm:border-b-2",
         scrollDir === "down" ? "-translate-y-full" : "translate-y-0",
       )}
     >
       <div className="container flex items-center justify-between">
         <div className="flex items-center justify-center gap-10">
-          <Link href="/" className="z-10">
+          <Link href="/" className="z-10 w-[100px]">
             <Logo />
           </Link>
           <nav
             className={cx(
-              "absolute left-0 top-0  flex h-screen w-screen list-none flex-col items-center justify-center gap-8 bg-secondary-950 text-white duration-300 sm:relative sm:h-fit  sm:w-fit sm:translate-y-0 sm:flex-row sm:bg-transparent",
+              "absolute left-0 top-0  flex h-screen w-screen list-none flex-col items-center justify-center gap-8 bg-secondary-950 text-black duration-300 sm:relative sm:h-fit  sm:w-fit sm:translate-y-0 sm:flex-row sm:bg-transparent",
               showMenu === true ? "translate-y-0" : "-translate-y-full",
             )}
           >
@@ -63,7 +63,12 @@ export const Header = () => {
             <Menu />
           </button>
           <Link href="/contact-us">
-            <Button variant="tetriary-reversed">Get in touch</Button>
+            <Button
+              variant="tetriary-reversed"
+              className="border-black !text-black hover:border-primary-300 hover:!text-white"
+            >
+              Get in touch
+            </Button>
           </Link>
         </div>
       </div>

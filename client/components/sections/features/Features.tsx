@@ -11,7 +11,7 @@ export const Features = () => {
         <div>
           <div className="mb-12 sm:mb-24">
             <Heading as="h2" className="text-section leading-none">
-              Our Services
+              What We Offer
             </Heading>
           </div>
           <div className="grid gap-9 md:grid-cols-2 xl:grid-cols-4">

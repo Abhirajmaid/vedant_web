@@ -17,15 +17,18 @@ export default function Home() {
         <Features />
       </div>
       <AboutUs />
-      <Metrics />
+      <div className="p-2 sm:p-4">
+        <Metrics />
+      </div>
       <div className="p-2 sm:p-4">
         <Testimonials />
       </div>
-      {/* <OurExpert /> */}
-      <div className="bg-secondary-950 p-2 sm:p-4">
+      <div className="p-2 sm:p-4">
         <NewLetter />
       </div>
-      <Blog />
+      <div className="p-2 sm:p-4">
+        <Blog />
+      </div>
     </main>
   );
 }

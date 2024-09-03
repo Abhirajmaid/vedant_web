@@ -1,4 +1,5 @@
 import { Button, Heading } from "@/components/elements";
+import { FooterBg } from "@/components/elements/icons/FooterBg";
 import { Container, Section } from "@/components/layouts";
 import { heroImages } from "@/data/data";
 import Image from "next/image";
@@ -7,8 +8,11 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <Section className="flex h-fit flex-col gap-32 bg-secondary-950">
-      <Container className="flex h-1/2 items-center justify-center">
+    <Section className="relative flex h-fit flex-col gap-28 bg-secondary-950">
+      <div className="absolute -top-20 right-[100px] h-full scale-x-[-1.2]">
+        <FooterBg />
+      </div>
+      <Container className="relative mt-[60px] flex h-1/2 items-center justify-center">
         <div className="grid grid-cols-1 xl:grid-cols-2">
           <div className="text-white">
             <Heading as="h1" className="text-hero leading-none">
@@ -25,7 +29,7 @@ const Hero = () => {
               achieve even greater success. Trust Vedant Construction to
               transform your vision into reality.
             </p>
-            <div className="flex items-center gap-3">
+            <div className="z-[99] flex items-center gap-3">
               <Link href="/services">
                 <Button variant="secondary">See our Services</Button>
               </Link>

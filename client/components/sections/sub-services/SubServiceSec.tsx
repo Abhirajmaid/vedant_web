@@ -29,7 +29,7 @@ export const SubServiceSec: React.FC<SubServiceSectionProps> = ({
 
   return (
     <Section className="bg-white">
-      <Container>
+      <Container className="mt-[50px]">
         <h2 className="mb-4 text-3xl font-bold capitalize">
           {params.slug} Sub-Services
         </h2>
