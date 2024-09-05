@@ -9,21 +9,21 @@ export const Menu = () => {
     >
       <path
         d="M3.25 14.5H16.75"
-        stroke="#ffffff"
+        stroke="#000"
         stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M3.25 10H16.75"
-        stroke="#ffffff"
+        stroke="#000"
         stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
       <path
         d="M3.25 5.5H16.75"
-        stroke="#ffffff"
+        stroke="#000"
         stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"

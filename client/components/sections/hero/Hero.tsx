@@ -8,19 +8,19 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <Section className="relative flex h-fit flex-col gap-28 bg-secondary-950">
+    <Section className="relative flex h-fit flex-col gap-28 bg-white">
       <div className="absolute -top-20 right-[100px] h-full scale-x-[-1.2]">
         <FooterBg />
       </div>
       <Container className="relative mt-[60px] flex h-1/2 items-center justify-center">
         <div className="grid grid-cols-1 xl:grid-cols-2">
-          <div className="text-white">
+          <div className="text-black">
             <Heading as="h1" className="text-hero leading-none">
               Crafting Excellence, Building Futures
             </Heading>
           </div>
           <div className="mt-10 xl:mt-0">
-            <p className="mb-10 text-base text-white">
+            <p className="mb-10 text-base text-black">
               Building Dreams, Creating Reality. With over 12 years of
               unparalleled expertise in both residential and commercial
               construction, Vedant Construction stands as a beacon of quality
@@ -34,7 +34,12 @@ const Hero = () => {
                 <Button variant="secondary">See our Services</Button>
               </Link>
               <Link href="/contact-us">
-                <Button variant="tetriary-reversed">Get in touch</Button>
+                <Button
+                  variant="tetriary-reversed"
+                  className="border-black !text-black"
+                >
+                  Get in touch
+                </Button>
               </Link>
             </div>
           </div>

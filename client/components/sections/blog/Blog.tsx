@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Blog = () => {
   return (
-    <Section className="relative rounded-3xl bg-primary-50">
+    <Section className="relative rounded-3xl bg-beige-primary">
       <div className="absolute top-0 h-full scale-[1.3] transform">
         <FooterBg />
       </div>
@@ -17,11 +17,14 @@ export const Blog = () => {
       <Container className="relative">
         <div>
           <div className="flex w-full items-center justify-between">
-            <Heading as="h2" className="text-section leading-none text-white">
+            <Heading
+              as="h2"
+              className="text-section leading-none text-primary-950"
+            >
               Blog
             </Heading>
             <Link href="/blog">
-              <button className="rounded-full border px-6 py-3 text-white">
+              <button className="rounded-full border border-black px-6 py-3 text-black">
                 See all
               </button>
             </Link>
@@ -45,13 +48,13 @@ export const Blog = () => {
                     <div>
                       <Heading
                         as="h3"
-                        className="mb-4 text-sub-title text-white"
+                        className="mb-4 text-sub-title text-black"
                       >
                         <Link href={`/blog/${id}`} className="text-[24px]">
                           {item.title}
                         </Link>
                       </Heading>
-                      <p className="text-[16px] text-neutral-200 ">
+                      <p className="text-[16px] text-gray-800  ">
                         {item.description.slice(0, 150)} Read More...
                       </p>
                     </div>
@@ -64,11 +67,11 @@ export const Blog = () => {
                           width={40}
                           className="h-[40px] rounded-full object-cover"
                         />
-                        <span className="text-[19px] text-white">
+                        <span className="text-writer text-[19px]">
                           {item.writer}
                         </span>
                       </div>
-                      <span className="text-white">{item.read_time}</span>
+                      <span className="text-black">{item.read_time}</span>
                     </div>
                   </div>
                 </div>

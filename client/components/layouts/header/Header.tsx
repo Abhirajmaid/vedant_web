@@ -39,13 +39,15 @@ export const Header = () => {
           </Link>
           <nav
             className={cx(
-              "absolute left-0 top-0  flex h-screen w-screen list-none flex-col items-center justify-center gap-8 bg-secondary-950 text-black duration-300 sm:relative sm:h-fit  sm:w-fit sm:translate-y-0 sm:flex-row sm:bg-transparent",
-              showMenu === true ? "translate-y-0" : "-translate-y-full",
+              "absolute left-0 top-0  flex h-screen w-screen list-none flex-col items-center justify-center gap-8 text-black duration-300 sm:relative sm:h-fit  sm:w-fit sm:translate-y-0 sm:flex-row sm:bg-transparent",
+              showMenu === true
+                ? "translate-y-0  bg-white"
+                : "-translate-y-full bg-primary-50",
             )}
           >
             {headerData.header.map((item, index) => {
               return (
-                <li key={index} className="">
+                <li key={index} onClick={toggleMenu}>
                   <Link className="capitalize" href={item.href}>
                     {item.label}
                   </Link>
@@ -55,10 +57,10 @@ export const Header = () => {
           </nav>
         </div>
 
-        <div className="z-10 flex h-fit">
+        <div className="z-10 flex h-fit gap-3">
           <button
             onClick={toggleMenu}
-            className="flex w-fit items-center justify-center rounded-full border p-3 sm:hidden"
+            className="flex w-fit items-center justify-center rounded-full border border-black p-3 sm:hidden"
           >
             <Menu />
           </button>

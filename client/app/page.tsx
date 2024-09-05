@@ -5,16 +5,22 @@ import {
   Hero,
   Metrics,
   NewLetter,
-  OurExpert,
   Testimonials,
 } from "@/components";
+import InfiniteMarquee from "@/components/elements/infinite-marquee/InfiniteMarquee";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="no-scrollbar">
       <Hero />
-      <div className="bg-secondary-950 p-2 sm:p-4">
+      <div className="p-2 sm:p-4">
         <Features />
+      </div>
+      <div className="-mt-6 h-fit overflow-hidden">
+        <Link href="/contact-us">
+          <InfiniteMarquee txt="GET A QUOTE" deg="0" />
+        </Link>
       </div>
       <AboutUs />
       <div className="p-2 sm:p-4">
@@ -28,6 +34,11 @@ export default function Home() {
       </div>
       <div className="p-2 sm:p-4">
         <Blog />
+      </div>
+      <div className="-mt-6 h-fit overflow-hidden">
+        <Link href="/contact-us">
+          <InfiniteMarquee txt="GET A QUOTE" deg="0" />
+        </Link>
       </div>
     </main>
   );

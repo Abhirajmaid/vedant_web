@@ -2,6 +2,8 @@
 import { Container, NewLetter, Section } from "@/components";
 import { FormEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import InfiniteMarquee from "@/components/elements/infinite-marquee/InfiniteMarquee";
+import Link from "next/link";
 
 const emailRegex = /^[A-Za-z0-9. _%+-]+@[A-Za-z0-9. -]\. [A-Z]{2,4}$/i;
 
@@ -56,6 +58,7 @@ const ContactPage = () => {
               type="email"
               placeholder="Email"
               className="w-full rounded-full border p-4 focus:outline-none"
+              name="user_email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -63,12 +66,14 @@ const ContactPage = () => {
               type="text"
               placeholder="Name"
               className="w-full rounded-full border p-4 focus:outline-none"
+              name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
             <textarea
               placeholder="Message"
               className="h-32 w-full resize-none rounded-2xl border p-4 focus:outline-none"
+              name="message"
               value={msg}
               onChange={(e) => setMsg(e.target.value)}
             />
@@ -116,10 +121,15 @@ const ContactPage = () => {
             className="border-0"
           ></iframe>
         </div>
-        <div className="-mb-32 mt-8">
+        <div className=" mt-8">
           <NewLetter />
         </div>
       </Container>
+      <div className="relative -mb-20 mt-10 h-fit overflow-hidden">
+        <Link href="/services">
+          <InfiniteMarquee txt="Our Services" deg="rotate-[2deg]" />
+        </Link>
+      </div>
     </Section>
   );
 };

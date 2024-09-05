@@ -22,8 +22,13 @@ export const ServicesGrid = () => {
               key={index}
               className="gap-4 rounded-xl p-6 shadow-lg"
             >
-              <div className="mb-3 flex h-auto w-[12%] items-center justify-center rounded-xl bg-primary-300 p-4">
-                <Icon icon={service.icon} width="2em" height="2em" />
+              <div className="mb-3 flex h-auto w-[20%] items-center justify-center rounded-xl bg-primary-300 p-4 md:w-[12%]">
+                <Icon
+                  icon={service.icon}
+                  width={50}
+                  height={50}
+                  className="h-auto w-auto"
+                />
               </div>
               <h2 className="text-xl font-bold">{service.title}</h2>
               <p className="mt-2 text-gray-800 ">{service.description}</p>

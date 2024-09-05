@@ -7,18 +7,17 @@ import {
   SubTitle,
   User,
 } from "@/components";
-import { Construction } from "@/components/elements/icons/Construction";
 
 export const Metrics = () => {
   return (
     <Section className="relative rounded-3xl bg-[#FFF7ED]">
-      <div className="absolute -left-[1080px] top-0 h-full w-full opacity-20">
+      {/* <div className="absolute -left-[58%] top-0 hidden h-full w-full opacity-20 md:block">
         <Construction />
       </div>
-      <div className="absolute -right-[1100px] top-0 h-full w-full opacity-20">
+      <div className="absolute -right-[58%] top-0 hidden h-full w-full opacity-20 md:block">
         <Construction />
-      </div>
-      <Container>
+      </div> */}
+      <Container className="relative">
         <SubTitle subTitle="Metrics" className="text-primary-950" />
         <div>
           <div className="mb-12 sm:mb-24">

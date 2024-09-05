@@ -21,6 +21,7 @@ export const servicesData = [
         id: "waterproofing",
         title: "Waterproofing",
         description: "Protect your property from water damage with our advanced waterproofing solutions. We offer a variety of waterproofing services tailored to different needs, including terrace waterproofing, basement waterproofing bathroom waterproofing, and more.",
+        img: "/images/stock5.webp",
         icon: "mdi:water-off",
         url: '/waterproofing',
         sub_services: [
@@ -151,6 +152,7 @@ export const servicesData = [
         title: "Coating Services",
         description: "Our coating services include protective and decorative coatings for various surfaces, ensuring durability, aesthetics, and resistance to environmental factors.",
         icon: "mdi:format-paint",
+        img: "/images/stock5.webp",
         url: '/coating-services',
         sub_services: [
             {
@@ -244,6 +246,7 @@ export const servicesData = [
         title: "Flooring Services",
         description: "Our flooring services cover installation and restoration of different flooring types, including epoxy flooring, vinyl flooring and more, ensuring a smooth and durable finish.",
         icon: "fluent-mdl2:tiles-2",
+        img: "/images/stock5.webp",
         url: '/flooring-services',
         sub_services: [
             {
@@ -373,6 +376,7 @@ export const servicesData = [
         title: "Painting",
         description: "We offer both interior and exterior painting services, using high-quality paints and techniques to ensure a flawless finish that lasts.",
         icon: "mdi:paint",
+        img: "/images/stock5.webp",
         url: '/painting',
         sub_services: [
             {
