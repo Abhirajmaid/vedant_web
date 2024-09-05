@@ -29,10 +29,10 @@ export const TestimonialsCarousel = () => {
       {testimonials.map((item, id) => {
         return (
           <div
-            className="w-full shrink-0  rounded-3xl bg-primary-300 p-10 sm:col-span-1"
+            className="w-full shrink-0  rounded-3xl bg-[#ffefdb] p-10 sm:col-span-1"
             key={id}
           >
-            <p className="min-h-[180px] text-left text-[22px] font-semibold">{`"${item.quote}"`}</p>
+            <p className="min-h-[180px] text-left text-[22px] font-semibold ">{`"${item.quote}"`}</p>
             <div className="flex flex-col items-center gap-6 sm:flex-row ">
               <div className="relative h-[56px] w-[56px] shrink-0">
                 <Image

@@ -5,7 +5,7 @@ import { FooterBg } from "@/components/elements/icons/FooterBg";
 
 export const Testimonials = () => {
   return (
-    <Section className="relative rounded-3xl bg-secondary-950">
+    <Section className="relative rounded-3xl bg-beige-primary ">
       <div className="absolute top-0 h-full">
         <FooterBg />
       </div>
@@ -13,10 +13,10 @@ export const Testimonials = () => {
         <FooterBg />
       </div>
       <Container className="relative flex flex-col items-center">
-        <SubTitle subTitle="Testimonials" />
+        <SubTitle subTitle="Testimonials" className="text-black" />
         <Heading
           as="h2"
-          className="w-full text-left text-section leading-none text-white"
+          className="w-full text-left text-section leading-none text-black"
         >
           {" "}
           What our customers say
