@@ -3,7 +3,7 @@ export const NewLetter = () => {
   return (
     <section className="relative rounded-3xl bg-primary-300 py-14">
       <div className="flex flex-col items-center justify-between md:flex-row">
-        <div className="mb-8 flex-1 md:mb-0">
+        <div className="mb-8 hidden flex-1 md:mb-0 md:block">
           <img
             src="/images/home.png"
             alt="Modern House"
