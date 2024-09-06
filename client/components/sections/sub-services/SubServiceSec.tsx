@@ -3,12 +3,20 @@ import React, { useState } from "react";
 import { SubServiceItem } from "./SubServiceItem";
 import { Container, Section } from "@/components/layouts";
 import { useParams } from "next/navigation";
+import { Heading } from "@/components/elements";
 
 interface SERVICES {
   category: string;
   question: string;
   answer: string;
   pricing_range?: string;
+  url?: string;
+  info?: {
+    title: string;
+    description: string;
+    process: string[];
+    benefits: string[];
+  };
 }
 
 interface SubServiceSectionProps {
@@ -31,9 +39,9 @@ export const SubServiceSec: React.FC<SubServiceSectionProps> = ({
   return (
     <Section className="bg-white">
       <Container className="mt-[50px]">
-        <h2 className="mb-4 text-3xl font-bold capitalize">
+        <Heading as="h1" className="mb-4 text-title font-bold capitalize">
           {params.slug} Sub-Services
-        </h2>
+        </Heading>
         <p className="mb-8 text-gray-600">
           These are all the Sub-Services comes under {params.slug}
         </p>
@@ -61,6 +69,8 @@ export const SubServiceSec: React.FC<SubServiceSectionProps> = ({
               question={item.question}
               answer={item.answer}
               pricing_range={item.pricing_range}
+              url={item.url}
+              info={item.info}
             />
           ))}
         </div>

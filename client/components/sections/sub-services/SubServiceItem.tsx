@@ -1,24 +1,36 @@
 "use client";
 import { Button } from "@/components/elements";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import React, { useState } from "react";
 
 interface SubServiceItemProps {
   question: string;
   answer: string;
   pricing_range?: string;
+  url?: string;
+  info?: {
+    title: string;
+    description: string;
+    process: string[];
+    benefits: string[];
+  };
 }
 
 export const SubServiceItem: React.FC<SubServiceItemProps> = ({
   question,
   answer,
   pricing_range,
+  url,
+  info,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleFAQ = () => {
     setIsOpen(!isOpen);
   };
+
+  const params = useParams<{ slug: string }>();
 
   return (
     <div className="border-b py-4">
@@ -47,11 +59,23 @@ export const SubServiceItem: React.FC<SubServiceItemProps> = ({
               className="h-[230px] w-[48%] rounded-3xl md:w-[30%]"
             />
           </div>
-          <Link href="/contact-us">
-            <Button variant="secondary" className="text-white">
-              Get a Quote
-            </Button>
-          </Link>
+          <div className="flex gap-5">
+            <Link href="/contact-us">
+              <Button variant="secondary" className="text-white">
+                Get a Quote
+              </Button>
+            </Link>
+            {info && (
+              <Link href={`/services/${params.slug}/${url}`}>
+                <Button
+                  variant="tetriary-reversed"
+                  className="border-black !text-black hover:!border-primary-300 hover:!text-white"
+                >
+                  Learn More
+                </Button>
+              </Link>
+            )}
+          </div>
         </div>
       )}
     </div>

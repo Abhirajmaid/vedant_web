@@ -21,7 +21,7 @@ export const servicesData = [
         id: "waterproofing",
         title: "Waterproofing",
         description: "Protect your property from water damage with our advanced waterproofing solutions. We offer a variety of waterproofing services tailored to different needs, including terrace waterproofing, basement waterproofing bathroom waterproofing, and more.",
-        img: "/images/stock5.webp",
+        img: "/images/services/waterproofing.webp",
         icon: "mdi:water-off",
         url: '/waterproofing',
         sub_services: [
@@ -29,13 +29,51 @@ export const servicesData = [
                 category: "Waterproofing",
                 question: "Waterproofing solutions",
                 answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
-                pricing_range: "₹50k - ₹100k"
+                pricing_range: "₹50k - ₹100k",
+                url: 'waterproofing-solutions',
+                info: {
+                    title: "Waterproofing Solutions",
+                    description:
+                        "Protect your property from water damage with our advanced waterproofing solutions. We offer a variety of waterproofing services tailored to different needs, including terrace waterproofing, basement waterproofing, bathroom waterproofing, and more.",
+                    process: [
+                        "Inspection: A thorough inspection of the area to identify potential leaks and water entry points.",
+                        "Surface Preparation: Cleaning and priming surfaces for optimal adhesion.",
+                        "Crack Filling: Sealing cracks with high-quality sealants.",
+                        "Application: Applying waterproofing membranes or coatings (e.g., Tripolarcon, Triguard).",
+                        "Final Inspection: Ensuring the waterproofing is seamless and effective.",
+                    ],
+                    benefits: [
+                        "Prevents structural damage caused by water.",
+                        "Increases the longevity of the building.",
+                        "Enhances the property's value.",
+                        "Reduces maintenance costs.",
+                    ],
+                }
             },
             {
                 category: "Waterproofing",
                 question: "Terrace waterproofing",
                 answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam vel ducimus ut et ea porro culpa qui rerum reiciendis!",
-                pricing_range: "₹50k - ₹100k"
+                pricing_range: "₹50k - ₹100k",
+                url: 'terrace-waterproofing',
+                info: {
+                    title: "Terrace waterproofing",
+                    description:
+                        "Protect your property from water damage with our advanced waterproofing solutions. We offer a variety of waterproofing services tailored to different needs, including terrace waterproofing, basement waterproofing, bathroom waterproofing, and more.",
+                    process: [
+                        "Inspection: A thorough inspection of the area to identify potential leaks and water entry points.",
+                        "Surface Preparation: Cleaning and priming surfaces for optimal adhesion.",
+                        "Crack Filling: Sealing cracks with high-quality sealants.",
+                        "Application: Applying waterproofing membranes or coatings (e.g., Tripolarcon, Triguard).",
+                        "Final Inspection: Ensuring the waterproofing is seamless and effective.",
+                    ],
+                    benefits: [
+                        "Prevents structural damage caused by water.",
+                        "Increases the longevity of the building.",
+                        "Enhances the property's value.",
+                        "Reduces maintenance costs.",
+                    ],
+                }
             },
             {
                 category: "Waterproofing",
@@ -152,7 +190,7 @@ export const servicesData = [
         title: "Coating Services",
         description: "Our coating services include protective and decorative coatings for various surfaces, ensuring durability, aesthetics, and resistance to environmental factors.",
         icon: "mdi:format-paint",
-        img: "/images/stock5.webp",
+        img: "/images/services/coating.jpg",
         url: '/coating-services',
         sub_services: [
             {
@@ -246,7 +284,7 @@ export const servicesData = [
         title: "Flooring Services",
         description: "Our flooring services cover installation and restoration of different flooring types, including epoxy flooring, vinyl flooring and more, ensuring a smooth and durable finish.",
         icon: "fluent-mdl2:tiles-2",
-        img: "/images/stock5.webp",
+        img: "/images/services/flooring.jpeg",
         url: '/flooring-services',
         sub_services: [
             {
@@ -376,7 +414,7 @@ export const servicesData = [
         title: "Painting",
         description: "We offer both interior and exterior painting services, using high-quality paints and techniques to ensure a flawless finish that lasts.",
         icon: "mdi:paint",
-        img: "/images/stock5.webp",
+        img: "/images/services/painting.webp",
         url: '/painting',
         sub_services: [
             {

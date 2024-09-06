@@ -127,7 +127,7 @@ const ContactPage = () => {
       </Container>
       <div className="relative -mb-20 mt-10 h-fit overflow-hidden">
         <Link href="/services">
-          <InfiniteMarquee txt="Our Services" deg="rotate-[2deg]" />
+          <InfiniteMarquee txt="Our Services" deg="0" />
         </Link>
       </div>
     </Section>

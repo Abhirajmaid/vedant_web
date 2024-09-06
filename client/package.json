@@ -25,6 +25,7 @@
     "clsx": "^2.1.0",
     "embla-carousel": "^8.0.2",
     "embla-carousel-react": "^8.0.2",
+    "framer-motion": "^11.5.4",
     "gsap": "^3.12.5",
     "highlight.js": "^11.9.0",
     "husky": "^9.0.11",

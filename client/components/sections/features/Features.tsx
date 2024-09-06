@@ -26,7 +26,7 @@ export const Features = () => {
             {servicesData.map((item, id) => {
               return (
                 <Link
-                  href={item.url}
+                  href={`/services/${item.url}`}
                   className="relative flex h-[450px] w-full flex-col items-start gap-6 overflow-hidden rounded-3xl transition-all hover:scale-[1.03]"
                   key={id}
                 >
@@ -44,6 +44,14 @@ export const Features = () => {
                     >
                       {item.title}
                     </Heading>
+                    <Link href={`/services/${item.url}`}>
+                      <Button
+                        variant="primary"
+                        className="!p-0 text-primary-300 hover:bg-transparent"
+                      >
+                        Learn More &rarr;
+                      </Button>
+                    </Link>
                   </div>
                 </Link>
               );
@@ -53,7 +61,12 @@ export const Features = () => {
             href="/services"
             className="mx-auto mt-10 flex w-full items-center justify-center"
           >
-            <Button variant="secondary">See All</Button>
+            <Button
+              variant="tetriary-reversed"
+              className="border-black !text-black hover:bg-transparent"
+            >
+              See all
+            </Button>
           </Link>
         </div>
       </Container>

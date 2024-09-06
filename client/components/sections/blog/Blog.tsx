@@ -61,7 +61,7 @@ export const Blog = () => {
                     <div className="mt-6 flex items-center gap-6">
                       <div className="flex items-center gap-3">
                         <Image
-                          src="/images/bruno.jpg"
+                          src="/images/stock1.jpg"
                           alt="Bruno"
                           height={40}
                           width={40}

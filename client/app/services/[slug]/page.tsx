@@ -9,6 +9,13 @@ interface SERVICES {
   question: string;
   answer: string;
   pricing_range?: string;
+  url?: string;
+  info?: {
+    title: string;
+    description: string;
+    process: string[];
+    benefits: string[];
+  };
 }
 
 const page = () => {

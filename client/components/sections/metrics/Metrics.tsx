@@ -7,16 +7,14 @@ import {
   SubTitle,
   User,
 } from "@/components";
+import { FooterBg } from "@/components/elements/icons/FooterBg";
 
 export const Metrics = () => {
   return (
     <Section className="relative rounded-3xl bg-[#FFF7ED]">
-      {/* <div className="absolute -left-[58%] top-0 hidden h-full w-full opacity-20 md:block">
-        <Construction />
+      <div className="absolute right-0 top-0 h-full -scale-x-[2]">
+        <FooterBg />
       </div>
-      <div className="absolute -right-[58%] top-0 hidden h-full w-full opacity-20 md:block">
-        <Construction />
-      </div> */}
       <Container className="relative">
         <SubTitle subTitle="Metrics" className="text-primary-950" />
         <div>
@@ -28,7 +26,7 @@ export const Metrics = () => {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
             <div className="flex flex-col items-start gap-6 rounded-3xl bg-primary-300 p-8">
               <User />
-              <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-4">
                 <Heading as="h3" className="text-title leading-none">
                   70+
                 </Heading>
