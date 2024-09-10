@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-export const Logo = () => {
+export const Logo: React.FC<{ img?: string }> = ({ img }) => {
   return (
     <>
       <Image
-        src="/images/logo_color.png"
+        src={img ? img : `/images/logo_color.png`}
         alt="vedant construction"
-        width={200}
-        height={200}
+        width={500}
+        height={500}
         className="h-auto w-full"
       />
     </>

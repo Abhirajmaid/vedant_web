@@ -1,6 +1,10 @@
 {
   "header": [
     {
+      "label": "home",
+      "href": "/"
+    },
+    {
       "label": "about us",
       "href": "/about-us"
     },

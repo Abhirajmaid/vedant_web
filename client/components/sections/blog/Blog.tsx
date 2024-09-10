@@ -21,7 +21,7 @@ export const Blog = () => {
               as="h2"
               className="text-section leading-none text-primary-950"
             >
-              Blog
+              Blogs
             </Heading>
             <Link href="/blog">
               <button className="rounded-full border border-black px-6 py-3 text-black">

@@ -13,13 +13,13 @@ export const Testimonials = () => {
         <FooterBg />
       </div>
       <Container className="relative flex flex-col items-center">
-        <SubTitle subTitle="Testimonials" className="text-black" />
+        {/* <SubTitle subTitle="Testimonials" className="text-black" /> */}
         <Heading
           as="h2"
           className="w-full text-left text-section leading-none text-black"
         >
           {" "}
-          What our customers say
+          Our Customers Testimonial
         </Heading>
         <div className="mt-24">
           <TestimonialsCarousel />

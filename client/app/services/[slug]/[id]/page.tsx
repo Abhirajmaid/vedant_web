@@ -49,11 +49,11 @@ const WaterproofingServices: React.FC = () => {
   }
 
   return (
-    <Section className="bg-white">
-      <div className="absolute top-0 h-full">
+    <Section className="bg-white ">
+      <div className="absolute top-0 hidden h-full md:block">
         <FooterBg />
       </div>
-      <div className="absolute right-0 top-0 h-full -scale-x-[1]">
+      <div className="absolute right-0 top-0 hidden h-full -scale-x-[1] md:block">
         <FooterBg />
       </div>
       <Container className="relative mt-[50px]">
@@ -155,7 +155,7 @@ const WaterproofingServices: React.FC = () => {
           </section>
         </motion.div>
       </Container>
-      <div className="relative -mb-20 mt-10 h-fit overflow-hidden">
+      <div className="relative -mb-14 mt-10 h-fit overflow-hidden">
         <Link href="/contact-us">
           <InfiniteMarquee txt="GET A QUOTE" deg="0" />
         </Link>

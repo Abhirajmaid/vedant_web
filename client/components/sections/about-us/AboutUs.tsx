@@ -17,7 +17,7 @@ export const AboutUs = () => {
         <FooterBg />
       </div>
       <Container className="relative">
-        <SubTitle subTitle="About us" className="text-primary-950" />
+        {/* <SubTitle subTitle="About us" className="text-primary-950" /> */}
         <div className="grid gap-12 md:gap-36 xl:grid-cols-2">
           <div className="flex flex-col justify-center gap-6">
             <Heading

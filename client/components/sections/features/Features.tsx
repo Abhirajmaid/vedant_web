@@ -15,11 +15,11 @@ export const Features = () => {
   return (
     <Section className="rounded-3xl bg-[#FFF7ED]">
       <Container>
-        <SubTitle subTitle="services" className="text-primary-950" />
+        {/* <SubTitle subTitle="services" className="text-primary-950" /> */}
         <div className="flex flex-col">
           <div className="mb-12 sm:mb-24">
             <Heading as="h2" className="text-section leading-none">
-              What We Offer
+              Our Services
             </Heading>
           </div>
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">

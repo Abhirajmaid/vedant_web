@@ -12,7 +12,7 @@ const InfiniteMarquee: React.FC<InfiniteMarqueeProps> = ({ txt, deg }) => {
   return (
     <>
       <div
-        className={`w-[100%] md:w-[120%] ${deg} mt-6 bg-primary-50 text-white`}
+        className={`w-[100%] md:w-[120%] ${deg} mt-6 bg-secondary-950 text-white`}
       >
         <Marquee>
           <div className="flex items-center justify-between gap-[115px] text-[40px] font-bold md:text-[60px]">

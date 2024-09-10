@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="container relative">
           <div className="grid gap-8 sm:grid-cols-6 xl:grid-cols-11">
             <div className="col-span-2">
-              <Logo />
+              <Logo img="/images/vlogo_white.png" />
             </div>
             <div className="col-span-9 grid gap-8 sm:grid-cols-9">
               <div className="col-span-3 grid w-full grid-cols-2 gap-4 sm:col-span-6 sm:grid-cols-2 sm:gap-0">

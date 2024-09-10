@@ -16,7 +16,7 @@ export const Metrics = () => {
         <FooterBg />
       </div>
       <Container className="relative">
-        <SubTitle subTitle="Metrics" className="text-primary-950" />
+        {/* <SubTitle subTitle="Metrics" className="text-primary-950" /> */}
         <div>
           <div className="mb-12 sm:mb-24">
             <Heading as="h2" className="text-section leading-none">
@@ -24,7 +24,7 @@ export const Metrics = () => {
             </Heading>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-            <div className="flex flex-col items-start gap-6 rounded-3xl bg-primary-300 p-8">
+            <div className="flex flex-col items-start gap-6 rounded-3xl bg-primary-400   p-8">
               <User />
               <div className="flex flex-col gap-4">
                 <Heading as="h3" className="text-title leading-none">
@@ -39,7 +39,7 @@ export const Metrics = () => {
               </div>
             </div>
             <div className="flex flex-col justify-between gap-8">
-              <div className="flex gap-6 rounded-3xl bg-primary-300 p-8">
+              <div className="flex gap-6 rounded-3xl bg-primary-400 p-8">
                 <Renewable />
                 <div>
                   <Heading as="h3" className="text-title leading-none">
@@ -50,7 +50,7 @@ export const Metrics = () => {
                   </h4>
                 </div>
               </div>
-              <div className="flex gap-6 rounded-3xl bg-primary-300 p-8">
+              <div className="flex gap-6 rounded-3xl bg-primary-400 p-8">
                 <SaveEnergy />
                 <div>
                   <Heading as="h3" className="text-title leading-none">

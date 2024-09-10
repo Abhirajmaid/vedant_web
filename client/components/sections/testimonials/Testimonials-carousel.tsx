@@ -4,6 +4,7 @@ import { useWindScreenowSize } from "@/hooks/useWindowSize";
 
 import Image from "next/image";
 import { Carousel } from "react-responsive-carousel";
+
 export const TestimonialsCarousel = () => {
   const size = useWindScreenowSize();
 
